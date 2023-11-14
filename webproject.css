@@ -1,0 +1,408 @@
+nav li {
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-weight: bold;
+
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-right: 0;
+    padding-left: 0;
+    border-top: 1px solid white;
+    background-color: black;
+}
+
+nav a:active {
+    color: white;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.welcome {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.mobile {
+    display: none;
+}
+
+#logo {
+    text-align: center;
+}
+
+.services a {
+    text-decoration: none;
+}
+
+.services :active {
+    color: black;
+}
+
+.services :visited {
+    color: black;
+}
+
+.services :hover {
+    color: blue;
+}
+
+footer a {
+    text-decoration: none;
+
+}
+
+footer a:link {
+    color: black;
+}
+
+footer a:visited {
+    color: black;
+}
+
+footer a:hover {
+    color: blue;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+#wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.origin {
+    text-align: center;
+}
+
+.our {
+    text-align: center;
+}
+
+.meet {
+    text-align: center;
+}
+
+#offer {
+    text-align: center;
+}
+
+.Return-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Return-box {
+    text-align: center;
+    border: 2.5px solid blue;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    height: 175px;
+}
+
+main a {
+    text-decoration: none;
+}
+
+#about {
+    height: 250px;
+    background-image: url(images/business-6952808_1920.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-decoration-color: black;
+    text-decoration: wavy;
+    text-decoration-line: underline;
+}
+
+#services {
+    height: 250px;
+    background-image: url(images/calculator-385506_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-decoration-color: black;
+    text-decoration: wavy;
+    text-decoration-line: underline;
+}
+
+#upload {
+    height: 250px;
+    background-image: url(images/upload-3406226.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-decoration-color: black;
+    text-decoration: wavy;
+    text-decoration-line: underline;
+}
+
+#resources {
+    height: 250px;
+    background-image: url(images/accounting-6063321_1920.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-decoration-color: black;
+    text-decoration: wavy;
+    text-decoration-line: underline;
+}
+
+#reviews {
+    height: 250px;
+    background-image: url(images/audit-7476720_1920.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-decoration-color: black;
+    text-decoration: wavy;
+    text-decoration-line: underline;
+}
+
+#contact {
+    height: 250px;
+    background-image: url(images/audit-6904474_1920.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-decoration-color: black;
+    text-decoration: wavy;
+    text-decoration-line: underline;
+}
+
+#button {
+    height: 50px;
+    width: 200px;
+    border: 3px solid blue;
+}
+
+.wrap {
+    text-align: center;
+}
+
+main {
+    padding-bottom: 10em;
+}
+
+table {
+    margin: auto;
+    border: 3px solid blue;
+}
+
+th,
+td {
+    border: 3px solid blue;
+    padding: 0.5em;
+}
+
+fieldset {
+    width: 200px;
+    height: 230px;
+    border: 2px solid blue;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p {
+    text-align: center;
+}
+
+.form {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    flex: 1;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+input[type="date"],
+button {
+    flex: 2;
+}
+
+@media (min-width: 1024px) {
+    nav li {
+        display: inline;
+        font-weight: bold;
+        border: none;
+    }
+
+    nav a {
+        text-decoration: none;
+        padding-right: 80px;
+    }
+
+    nav a:active {
+        color: black;
+    }
+
+    nav a:visited {
+        color: black;
+    }
+
+    nav a:hover {
+        color: blue;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 50px;
+        text-align: right;
+        border: none;
+        background-color: white;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 150px;
+        width: 100%;
+        min-width: 40em;
+        background-color: white;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    #wrapper {
+        margin-top: 60px;
+        padding-top: 60px;
+        margin-right: 40px;
+        margin-left: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    main {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 20em;
+        padding-top: 3em;
+        display: block;
+    }
+
+    #about {
+        height: 500px;
+        background-image: url(images/business-6952808_1920.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 80px;
+        padding-left: 80px;
+        text-decoration-color: black;
+        text-decoration: wavy;
+        text-decoration-line: underline;
+    }
+
+    #services {
+        height: 500px;
+        background-image: url(images/calculator-385506_1920.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 80px;
+        padding-left: 80px;
+        text-decoration-color: black;
+        text-decoration: wavy;
+        text-decoration-line: underline;
+    }
+
+    #upload {
+        height: 500px;
+        background-image: url(images/upload-3406226.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 80px;
+        padding-left: 80px;
+        text-decoration-color: black;
+        text-decoration: wavy;
+        text-decoration-line: underline;
+    }
+
+    #resources {
+        height: 500px;
+        background-image: url(images/accounting-6063321_1920.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 80px;
+        padding-left: 80px;
+        text-decoration-color: black;
+        text-decoration: wavy;
+        text-decoration-line: underline;
+    }
+
+    #reviews {
+        height: 500px;
+        background-image: url(images/audit-7476720_1920.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 80px;
+        padding-left: 80px;
+        text-decoration-color: black;
+        text-decoration: wavy;
+        text-decoration-line: underline;
+    }
+
+    #contact {
+        height: 500px;
+        background-image: url(images/audit-6904474_1920.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 80px;
+        padding-left: 80px;
+        text-decoration-color: black;
+        text-decoration: wavy;
+        text-decoration-line: underline;
+    }
+
+    .welcome {
+        float: right;
+    }
+
+    .Return-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 150px;
+    }
+
+    footer {
+        clear: both;
+        padding-top: 100px;
+    }
+}
